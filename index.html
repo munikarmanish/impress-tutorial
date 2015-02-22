@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress-tutorial</title>
+    <meta name="description" content="impress-tutorial is a tutorial creating tool based on the power of impress.js Presentation API" />
+    <meta name="author" content="Sujit Maharjam" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.KS, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+  
+  <div id="title" class="step" data-x="0" data-y="0" data-scale="13">
+    <h1>Yomari Code Camp 2015</h1>  
+    <h2>IMPRESS-TUTORIAL</h2>
+    <span class="footnote">go impress</span>
+    <br/>
+    <div class="tiny">
+    By:
+    <ol>
+      <li>Sujit Maharjan</li>
+      <li>Manish Munikar</li>
+    </ol>
+    </div>
+  </div>
+
+  <div id="Problem" class="step" data-x="-5000" data-y="-2500">
+    <q>Are you about to go through the <b>tutorial</b> on the web?</q>
+  </div>
+  
+  <div class="step" data-x="-4000" data-y="-2500">
+    <q>Well, Best of Luck </q>
+    <q>You have <b>3 pages</b> to read.</q>
+  </div>
+ 
+  <div class="step" data-x="-3000" data-y="-2500">
+    <q>Basically today`s tutorial <strong>good</strong> at <strong>one thing</strong></q>
+  </div>
+   
+  <div class="step" data-x="-2000" data-y="-2500">
+    Scratching out the learning excitement from the learner.
+  </div> 
+  <div id="its" class="step" data-x="-1000" data-y="-600" data-rotate="90" data-scale="5">
+    <p>Can we do this in a better way?<br/>
+    </div>
+  
+  <div id="about" class="step" data-x="500" data-y="-1000" data-z="-6000" data-rotate="180" data-scale="5">
+    <p>Yes, We can. It`s all about  the <b>Presentation</b></p>
+  </div>
+  
+  
+  <div id="ing" class="step" data-x="2900" data-y="-1050" data-rotate="270" data-scale="6">
+    <p><b class="positioning">But,</b> I just want to create a tutorial.</p>
+  </div>
+  
+  <div id="imagination" class="step" data-x="4000" data-y="1000" data-scale="6">
+    <p>Don`t worry just go and used impress-turtorial?</p>
+    <p>Create a better tutorial</p>
+  </div>
+  
+  <div id="demo" class="step" data-x="4000" data-y="2000" data-scale="4">
+    <p>Demo</p>
+  </div>
+  
+  <div id="one-more-thing" class="step" data-x="1000" data-y="2500" data-scale="2">
+    <p><strong>Finally</strong></p>
+    <q>Why impress-tutorial?</q>
+    
+  </div>
+
+  <div id="its-in-3d" class="step" data-x="1000" data-y="3000" data-z="-600" data-rotate-x="-40" data-rotate-y="20" data-scale="2">
+    <p>Because presentation does matter</p>
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
+</html>
+
+
